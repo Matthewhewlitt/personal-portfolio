@@ -2,7 +2,7 @@
 
 Personal portfolio website built with React, TypeScript, and Tailwind CSS. Features a fixed sidebar navigation, smooth scroll-spy, scroll-triggered fade-in animations, and a dark theme with a purple → yellow gradient accent system.
 
-**Live at:** *(deploy URL here)*
+**Live at:** *https://personal-portfolio-dtyffh9wn-matthewhewlitts-projects.vercel.app*
 
 ## Tech Stack
 
