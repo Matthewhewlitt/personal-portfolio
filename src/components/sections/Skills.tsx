@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import {
   SiPython, SiJavascript, SiTypescript, SiNodedotjs, SiReact,
   SiDocker, SiGit, SiGithub, SiPostgresql, SiPandas, SiNumpy,
-  SiPytorch, SiGnubash, SiC, SiR,
+  SiPytorch, SiGnubash, SiC, SiR, SiNvidia, SiVite, SiVercel, SiLinux,
 } from 'react-icons/si'
 import { FaJava, FaDatabase } from 'react-icons/fa'
 import { BsCpuFill, BsLightningChargeFill, BsBarChartFill } from 'react-icons/bs'
@@ -28,12 +28,16 @@ const SKILLS: Skill[] = [
   { name: 'Numba',       icon: <BsLightningChargeFill />,        color: '#00A3E0' },
   { name: 'Matplotlib',  icon: <BsBarChartFill />,               color: '#11557C' },
   { name: 'PyTorch',     icon: <SiPytorch />,                    color: '#EE4C2C' },
+  { name: 'CUDA',        icon: <SiNvidia />,                     color: '#76B900' },
   { name: 'Node.js',     icon: <SiNodedotjs />,                  color: '#339933' },
   { name: 'React.js',    icon: <SiReact />,                      color: '#61DAFB' },
   { name: 'Docker',      icon: <SiDocker />,                     color: '#2496ED' },
   { name: 'Git',         icon: <SiGit />,                        color: '#F05032' },
   { name: 'GitHub',      icon: <SiGithub />,                     color: '#c9c9d4' },
   { name: 'PostgreSQL',  icon: <SiPostgresql />,                 color: '#4169E1' },
+  { name: 'Vite',        icon: <SiVite />,                       color: '#646CFF' },
+  { name: 'Vercel',      icon: <SiVercel />,                     color: '#c9c9d4' },
+  { name: 'Linux/Unix',  icon: <SiLinux />,                      color: '#FCC624' },
 ]
 
 export default function Skills() {

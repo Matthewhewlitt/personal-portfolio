@@ -11,15 +11,25 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
+    name: 'Algorithmic Trading Program',
+    context: 'Personal Project',
+    date: 'Jun 2026 – Present',
+    description: [
+      'Autonomous trading program that analyses and buys stocks in real time.',
+      'Examines 2,000+ stocks across multiple markets within seconds using parallel GPU computation (CUDA).',
+    ],
+    tags: ['Python', 'CUDA', 'GPU Computing'],
+  },
+  {
     name: 'TradeGuard',
     context: 'National Bank of Canada × QHacks',
     date: 'Feb 2026',
     description: [
       'Behavioural bias detection engine that ingests raw CSV trading data and identifies overtrading, loss aversion, and revenge trading patterns using behavioural finance heuristics.',
-      'Visualisation and personalised AI feedback layer with actionable recommendations: daily trade limits, stop-loss discipline, cooldown periods.',
+      'Analyzed data-sets as large as 200,000 trades, with a personalised AI feedback layer for actionable recommendations: daily trade limits, stop-loss discipline, cooldown periods.',
     ],
     tags: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Behavioural Finance', 'AI'],
-    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt' }],
+    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt/NBC-Bias-Detector---QHacks-2026' }],
   },
   {
     name: 'nodebility',
@@ -30,7 +40,40 @@ const PROJECTS: Project[] = [
       'Integrated Backboard.io as a stateful AI memory layer for per-intersection incident history, automated urgency classification, fix-cost estimation, and AI-generated pattern summaries.',
     ],
     tags: ['Next.js', 'FastAPI', 'PostgreSQL', 'Backboard.io', 'TypeScript', 'Python'],
-    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt' }],
+    links: [{ label: 'GitHub', href: 'https://github.com/jasonchencode/backboard.io' }],
+  },
+  {
+    name: 'Owen Osteo',
+    context: "Client Project — Dynamic Recovery And Restoration",
+    date: 'Jun 2026',
+    description: [
+      "Mock website built for a client's academic project, for an osteopathic therapy practice.",
+    ],
+    tags: ['HTML', 'CSS'],
+    links: [
+      { label: 'Live', href: 'https://owen-osteo.vercel.app' },
+      { label: 'GitHub', href: 'https://github.com/Matthewhewlitt/owen-osteo' },
+    ],
+  },
+  {
+    name: 'Help is Here',
+    context: 'Client Project — Collingwood Transportation',
+    date: 'Mar 2026 – Present',
+    description: [
+      'Responsive 4-page site for a local transportation business, built with React 18, TypeScript, Tailwind CSS, and React Router v6.',
+    ],
+    tags: ['React', 'TypeScript', 'Tailwind CSS', 'React Router'],
+    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt/help-is-here' }],
+  },
+  {
+    name: 'Gabriele Photography',
+    context: 'Client Project — Collingwood Camera Shop, est. 1989',
+    date: 'May – Jun 2026',
+    description: [
+      'Landing page developed for a local boutique camera shop & print studio.',
+    ],
+    tags: ['HTML', 'CSS'],
+    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt/gabriele-photography' }],
   },
 ]
 

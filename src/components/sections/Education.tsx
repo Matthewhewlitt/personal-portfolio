@@ -56,7 +56,7 @@ export default function Education() {
             className="text-xs font-mono px-2.5 py-1.5 rounded shrink-0"
             style={{ background: '#1c1c22', color: '#F0C040' }}
           >
-            Sept 2024 – May 2028
+            Sept 2024 – Apr 2028
           </span>
         </div>
 
@@ -96,6 +96,24 @@ export default function Education() {
             ))}
           </div>
         </div>
+      </article>
+
+      <article className="fade-in fade-in-delay-2 mt-6 p-7" style={GRADIENT_BORDER}>
+        <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
+          <div>
+            <h3 className="text-lg font-semibold text-white">Accelerated Computing with CUDA Python</h3>
+            <p className="text-sm mt-0.5" style={{ color: '#6b6b7a' }}>NVIDIA Deep Learning Institute</p>
+          </div>
+          <span
+            className="text-xs font-mono px-2.5 py-1.5 rounded shrink-0"
+            style={{ background: '#1c1c22', color: '#F0C040' }}
+          >
+            Dec 2025
+          </span>
+        </div>
+        <p className="text-sm leading-relaxed" style={{ color: '#9090a0' }}>
+          CPU-to-GPU memory transfer, thread execution, and CUDA kernels to parallelize numerical workloads.
+        </p>
       </article>
     </section>
   )

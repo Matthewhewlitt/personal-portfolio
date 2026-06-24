@@ -40,9 +40,9 @@ const JOBS: Job[] = [
     role: 'Team Lead',
     tags: ['Leadership', 'Operations', 'Team Management'],
     bullets: [
-      "Awarded the 'Golden Nametag' for exceptional problem solving out of ~1,200 candidates.",
+      "Awarded the 'Golden Nametag' for exceptional problem solving out of ~1,800 candidates.",
       'Coordinated daily operations for a frontline team across multiple high-volume attractions.',
-      'Managed position assignments, break scheduling, and safety inspection logs.',
+      'Selected for Tech Team, a group of 5 employees from a 107-person department responsible for periodic technical inspection, department logs and documentation, and maintenance.',
     ],
   },
 ]
