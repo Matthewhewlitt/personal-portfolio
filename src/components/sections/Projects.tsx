@@ -21,6 +21,29 @@ const PROJECTS: Project[] = [
     tags: ['Python', 'CUDA', 'GPU Computing'],
   },
   {
+    name: 'Owen Osteo',
+    context: "Client Project — Dynamic Recovery And Restoration",
+    date: 'Jun 2026',
+    description: [
+      "Mock website built for a client's academic project, for an osteopathic therapy practice.",
+    ],
+    tags: ['HTML', 'CSS'],
+    links: [
+      { label: 'Live', href: 'https://owen-osteo.vercel.app' },
+      { label: 'GitHub', href: 'https://github.com/Matthewhewlitt/owen-osteo' },
+    ],
+  },
+  {
+    name: 'Gabriele Photography',
+    context: 'Client Project — Collingwood Camera Shop, est. 1989',
+    date: 'May – Jun 2026',
+    description: [
+      'Landing page developed for a local boutique camera shop & print studio.',
+    ],
+    tags: ['HTML', 'CSS'],
+    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt/gabriele-photography' }],
+  },
+  {
     name: 'TradeGuard',
     context: 'National Bank of Canada × QHacks',
     date: 'Feb 2026',
@@ -41,39 +64,6 @@ const PROJECTS: Project[] = [
     ],
     tags: ['Next.js', 'FastAPI', 'PostgreSQL', 'Backboard.io', 'TypeScript', 'Python'],
     links: [{ label: 'GitHub', href: 'https://github.com/jasonchencode/backboard.io' }],
-  },
-  {
-    name: 'Owen Osteo',
-    context: "Client Project — Dynamic Recovery And Restoration",
-    date: 'Jun 2026',
-    description: [
-      "Mock website built for a client's academic project, for an osteopathic therapy practice.",
-    ],
-    tags: ['HTML', 'CSS'],
-    links: [
-      { label: 'Live', href: 'https://owen-osteo.vercel.app' },
-      { label: 'GitHub', href: 'https://github.com/Matthewhewlitt/owen-osteo' },
-    ],
-  },
-  {
-    name: 'Help is Here',
-    context: 'Client Project — Collingwood Transportation',
-    date: 'Mar 2026 – Present',
-    description: [
-      'Responsive 4-page site for a local transportation business, built with React 18, TypeScript, Tailwind CSS, and React Router v6.',
-    ],
-    tags: ['React', 'TypeScript', 'Tailwind CSS', 'React Router'],
-    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt/help-is-here' }],
-  },
-  {
-    name: 'Gabriele Photography',
-    context: 'Client Project — Collingwood Camera Shop, est. 1989',
-    date: 'May – Jun 2026',
-    description: [
-      'Landing page developed for a local boutique camera shop & print studio.',
-    ],
-    tags: ['HTML', 'CSS'],
-    links: [{ label: 'GitHub', href: 'https://github.com/Matthewhewlitt/gabriele-photography' }],
   },
 ]
 

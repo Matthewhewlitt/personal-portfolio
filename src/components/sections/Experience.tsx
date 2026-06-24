@@ -11,7 +11,7 @@ interface Job {
 
 const JOBS: Job[] = [
   {
-    company: 'Help is Here!',
+    company: 'Help is Here',
     location: 'Collingwood, ON',
     period: 'Mar 2026 – Present',
     role: 'Freelance Website Developer & Digital Growth Consultant',
@@ -19,18 +19,6 @@ const JOBS: Job[] = [
     bullets: [
       'Designed and developed a responsive 4-page website for a local transportation business using React 18, TypeScript, Tailwind CSS, React Router v6, and Vite.',
       'Formulating and executing a custom digital growth strategy covering SEO, Google Business Profile, Google Maps, paid advertising, and social media.',
-    ],
-  },
-  {
-    company: "Mother Nature's Cupboard",
-    location: 'Collingwood, ON',
-    period: 'Mar 2026 – Present',
-    role: 'Freelance Website Developer & Digital Growth Consultant',
-    tags: ['React', 'TypeScript', 'SEO', 'Google Business', 'Google Maps'],
-    bullets: [
-      'Built a responsive website for a Collingwood farmers market natural foods and supplement vendor.',
-      'Configured Google Business Profile and Maps presence to drive local visibility.',
-      'Developed a digital growth strategy covering SEO, social media, and targeted advertising to grow beyond the farmers market into a delivery business.',
     ],
   },
   {
